@@ -1,0 +1,35 @@
+.contacts-container {
+    padding: 30px;
+    background-color: #ffe24e;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    max-height: 675px;
+    gap: 2em;
+}
+
+.contact-fields {
+    min-height: 515px;
+}
+
+.contacts-fields-container {
+    width: 60%;
+    min-height: 675px;
+}
+
+.contact {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    height: fit-content;
+    position: relative;
+}
+
+.fa.remove-contact {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #8b3737;
+    font-size: 1.5rem;
+}

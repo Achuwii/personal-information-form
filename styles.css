@@ -1,0 +1,162 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: lemonchiffon;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+}
+
+.card {
+    width: 80%;
+    border: none;
+    overflow: hidden;
+}
+
+.required {
+    color: red;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    height: 675px;
+    overflow: hidden;
+}
+
+.second a:hover {
+    color: rgb(0, 183, 255) !important;
+}
+
+
+.active-2 {
+    color: rgb(0, 183, 255) !important;
+}
+
+.second span:hover {
+    padding-bottom: 21px !important;
+    border-bottom: 3px solid rgb(0, 183, 255) !important;
+
+}
+
+.breadcrumb>li+li:before {
+    content: "" !important;
+}
+
+.breadcrumb {
+    padding: 19px ;
+    font-size: 14px;
+    color: #aaa !important;
+    letter-spacing: 2px ;
+    border-radius: 5px !important;
+    margin: 0;
+}
+
+ol {
+    margin: 0;
+}
+
+
+
+.fa-angle-double-right {
+    color: #aaa !important;
+}
+
+
+.first {
+    background-color: white !important;
+}
+
+
+a {
+    text-decoration: none !important;
+    color: #aaa !important;
+}
+
+a:focus,
+a:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.fa-caret-right,
+.fa-angle-double-right {
+    font-size: 20px !important;
+}
+
+.fa-caret-right {
+    vertical-align: middle;
+}
+
+.four ol{
+    background-color: rgb(51, 0, 80) !important;
+}
+
+@media (max-width: 1024px) {
+    .breadcrumb {
+      font-size: 10px;
+
+     }
+
+    .breadcrumb-item+.breadcrumb-item {
+        padding-left: 0;
+    }
+    
+    .fa {
+       font-size: 9px !important;
+    }
+
+   
+   
+    .breadcrumb {
+        letter-spacing: 1px !important;
+    }
+    .breadcrumb > * div {
+        max-width: 60px;
+    }
+
+    .banner, .google-container{
+        display: none !important;
+    }
+
+    .form-container, .address-container {
+        width: 100% !important;
+    }
+}
+
+.banner {
+    background-color: #ffe24e;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.form-container {
+    width: 60%;
+    height: 675px;
+    overflow: scroll;
+}
+
+.fa.remove-number {
+    color: #8b3737;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.number {
+    position: relative;
+}

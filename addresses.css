@@ -1,0 +1,36 @@
+.addressesTab {
+    min-height: 675px;
+}
+
+.google-container {
+    background-color: #ffe24e;
+    width: 40%;
+}
+
+.address-container {
+    width: 60%;
+    max-height: 675px;
+    overflow: scroll;
+}
+
+.shipping-address {
+    border: 1px solid #A9A9A9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.billing-address {
+    border: 1px solid #A9A9A9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.shipping-container {
+    min-height: 475px;
+}
+
+.billing-container {
+    min-height: 475px;
+}
